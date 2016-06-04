@@ -1,0 +1,96 @@
+!SESSION 2016-06-04 15:13:49.772 -----------------------------------------------
+eclipse.buildId=3.7.3.201602251025-RELEASE-e46
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.springsource.sts.ide -keyring /Users/renanchagas/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springsource.sts.ide -keyring /Users/renanchagas/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2016-06-04 15:15:44.568
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-06-04 15:16:36.436
+!MESSAGE cacheFile=file:/Applications/STS.app/Contents/Eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2016-06-04 15:17:02.342
+!MESSAGE cacheFile=file:/Applications/STS.app/Contents/Eclipse/configuration/org.eclipse.wst.server.discovery/serverAdapterSitesDetails.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:17:24.734
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:17:24.751
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:18:04.803
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:18:04.810
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:18:06.522
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:18:06.533
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:18:54.108
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:18:54.112
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2016-06-04 15:18:54.973
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2016-06-04 15:18:54.974
+!MESSAGE session context was:(profile=DefaultProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-06-04 15:18:54.974
+!MESSAGE No repository found containing: osgi.bundle,org.sonatype.m2e.buildhelper,0.15.0.201405280027
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-06-04 15:18:54.974
+!MESSAGE No repository found containing: osgi.bundle,org.sonatype.m2e.egit,0.14.0.201509090157
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-06-04 15:18:54.974
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.sonatype.m2e.buildhelper.feature,0.15.0.201405280027
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-06-04 15:18:54.974
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.sonatype.m2e.egit.feature,0.14.0.201509090157
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2016-06-04 15:18:54.974
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2016-06-04 15:18:54.974
+!MESSAGE session context was:(profile=DefaultProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-06-04 15:18:54.974
+!MESSAGE No repository found containing: osgi.bundle,org.sonatype.m2e.buildhelper,0.15.0.201405280027
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-06-04 15:18:54.974
+!MESSAGE No repository found containing: osgi.bundle,org.sonatype.m2e.egit,0.14.0.201509090157
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-06-04 15:18:54.974
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.sonatype.m2e.buildhelper.feature,0.15.0.201405280027
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2016-06-04 15:18:54.974
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.sonatype.m2e.egit.feature,0.14.0.201509090157
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:18:55.673
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:18:55.684
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:19:09.210
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:19:09.215
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:20:03.526
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:20:03.531
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:20:24.098
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:20:24.119
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:20:53.789
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-06-04 15:20:53.799
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
