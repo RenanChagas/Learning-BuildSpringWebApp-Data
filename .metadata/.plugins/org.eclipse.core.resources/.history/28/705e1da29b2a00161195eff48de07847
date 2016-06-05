@@ -1,0 +1,21 @@
+package com.data;
+
+import java.math.BigDecimal;
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Application {
+
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("application-context.xml");
+		BookService service = context.getBean(BookService.class);
+		BookRepository repository = context.getBean(BookRepository.class);
+		
+		List<Book> books = repository.findAll();
+		for (Book book : books){
+			System.out.println(book);
+		}
+	}
+}
