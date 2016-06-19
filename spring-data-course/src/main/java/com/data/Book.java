@@ -8,6 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -30,6 +32,10 @@ public class Book {
 
 	@Column(name = "PRICE")
 	private BigDecimal price;
+	
+	@ManyToOne
+	@JoinColumn(name="AUTHOR_ID")
+	private Author author;
 
 	public Book() {
 
@@ -82,9 +88,17 @@ public class Book {
 		this.price = price;
 	}
 
+	public Author getAuthor() {
+		return author;
+	}
+
+	public void setAuthor(Author author) {
+		this.author = author;
+	}
+
 	@Override
 	public String toString() {
 		return "Book [bookId=" + bookId + ", title=" + title + ", publishDate=" + publishDate + ", pageCount="
-				+ pageCount + ", price=" + price + "]";
+				+ pageCount + ", price=" + price + ", country=" + author.getCountry() +"]";
 	}
 }
